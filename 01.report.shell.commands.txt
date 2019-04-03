@@ -1,0 +1,55 @@
+hello world
+
+Changing password for tung.
+(current) UNIX password: 
+Enter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+
+Thứ tư, 03 Tháng 4 năm 2019 10:22:56 +07
+
+tung-VivoBook-S14-X430UA
+
+x86_64
+
+Linux
+
+[ 1081.117619] usb 1-1: new low-speed USB device number 4 using xhci_hcd
+[ 1081.269573] usb 1-1: New USB device found, idVendor=0000, idProduct=0538, bcdDevice= 1.00
+[ 1081.269581] usb 1-1: New USB device strings: Mfr=0, Product=1, SerialNumber=0
+[ 1081.269586] usb 1-1: Product:  USB OPTICAL MOUSE
+[ 1081.289799] input:  USB OPTICAL MOUSE as /devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.0/0003:0000:0538.0002/input/input19
+[ 1081.290018] hid-generic 0003:0000:0538.0002: input,hidraw1: USB HID v1.11 Mouse [ USB OPTICAL MOUSE] on usb-0000:00:14.0-1/input0
+[ 1081.290067] usbcore: registered new interface driver usbhid
+[ 1081.290069] usbhid: USB HID core driver
+
+10:30:43 up 21 min,  1 user,  load average: 0,62, 0,44, 0,32
+
+who am i
+
+tung
+
+tung     :0           2019-04-03 10:09 (:0)
+
+uid=1000(tung) gid=1000(tung) groups=1000(tung),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),118(lpadmin),129(sambashare)
+
+tung     :0           :0               Wed Apr  3 10:09   still logged in
+reboot   system boot  4.18.0-10-generi Wed Apr  3 10:09   still running
+tung     :0           :0               Wed Apr  3 08:45 - down   (01:17)
+reboot   system boot  4.18.0-10-generi Wed Apr  3 08:45 - 10:02  (01:17)
+tung     :0           :0               Wed Apr  3 08:40 - down   (00:03)
+reboot   system boot  4.18.0-10-generi Wed Apr  3 08:40 - 08:43  (00:03)
+tung     :0           :0               Wed Apr  3 02:41 - crash  (05:58)
+reboot   system boot  4.18.0-10-generi Wed Apr  3 02:41 - 08:43  (06:02)
+tung     :0           :0               Wed Apr  3 15:53 - 02:41  (-13:12)
+reboot   system boot  4.18.0-10-generi Wed Apr  3 15:53 - 02:41  (-13:11)
+
+Command 'finger' not found, but can be installed with:
+
+sudo apt install finger
+
+10:34:53 up 25 min,  1 user,  load average: 0,40, 0,44, 0,36
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+tung     :0       :0               10:09   ?xdm?  60.72s  0.00s /usr/lib/gdm3/gdm-x-session --run-sc
+
+
