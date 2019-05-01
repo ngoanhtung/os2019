@@ -1,0 +1,18 @@
+$ ls | grep list
+ 
+filelist
+
+$ wc -l /etc/passwd
+40 /etc/passwd
+
+$ free -m | awk '{print($1 $2)}'
+totalused
+Mem:3822
+Swap:7628
+
+
+$ cat /proc/cpuinfo | grep processor | wc -l
+8
+
+$ ls -lR photo/ | grep ".jpg" | wc -l
+0
