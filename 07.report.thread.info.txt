@@ -1,0 +1,14 @@
+$ ps aux | grep -i firefox
+tung      3719 55.0  7.3 1920972 287020 ?      Sl   09:20   0:06 /usr/lib/firefox/firefox
+tung      3881  9.9  3.5 1583120 140408 ?      Sl   09:20   0:01 /usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 1 -prefMapSize 173310 -parentBuildID 20190327091122 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 3719 true tab
+tung      3946  3.4  2.7 1551720 105764 ?      Sl   09:20   0:00 /usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 5401 -prefMapSize 173310 -parentBuildID 20190327091122 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 3719 true tab
+tung      4002  1.7  1.9 1523056 78280 ?       Sl   09:20   0:00 /usr/lib/firefox/firefox -contentproc -childID 3 -isForBrowser -prefsLen 6208 -prefMapSize 173310 -parentBuildID 20190327091122 -greomni /usr/lib/firefox/omni.ja -appomni /usr/lib/firefox/browser/omni.ja -appdir /usr/lib/firefox/browser 3719 true tab
+tung      4065  0.0  0.0  22820   936 pts/18   R+   09:20   0:00 grep --color=auto -i firefox
+
+$ ps -o nlwp 3719
+NLWP
+  67
+
+$ cat /proc/3719/status | grep -i threads
+Threads:	64
+
